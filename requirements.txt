@@ -1,7 +1,7 @@
 cachetools==3.1.1
 certifi==2019.9.11
 chardet==3.0.4
-Django==2.1.1
+Django==2.1.11
 django-redis==4.9.0
 djangorestframework==3.10.3
 django-mysql==3.2.0

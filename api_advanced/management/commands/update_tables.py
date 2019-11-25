@@ -6,7 +6,7 @@ import json
 class Command(BaseCommand):
     help = 'Updates the luas stop table'
 
-    def handle(self):
+    def handle(self, *args, **options):
         luas_client = luas.api.LuasClient()
         for stop in LuasStop.objects.all():
             try:

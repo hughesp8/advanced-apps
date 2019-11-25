@@ -3,7 +3,8 @@ certifi==2019.9.11
 chardet==3.0.4
 Django==2.1.1
 django-redis==4.9.0
-djangorestframework==3.8.2
+djangorestframework==3.10.3
+django-mysql==3.2.0
 drf-extensions==0.4.0
 google-api-core==1.14.3
 google-auth==1.7.0

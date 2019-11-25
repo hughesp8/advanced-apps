@@ -1,0 +1,2 @@
+./cloud_sql_proxy -instances=advanced-software-apps:europe-west1:database-2=tcp:3306
+sudo /etc/init.d/mysql stop

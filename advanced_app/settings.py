@@ -25,7 +25,7 @@ SECRET_KEY = 'cjnk1r!%#096qmxc=mvso(q6!12lcs4)35)ce#hlbj6p(ukl#_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['advanced-software-apps.appspot.com']
+ALLOWED_HOSTS = ['advanced-software-apps.appspot.com','127.0.0.1']
 
 
 # Application definition
@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api_advanced.apps.ApiAdvancedConfig',
+    'rest_framework',
+    'django_mysql',
 ]
 
 MIDDLEWARE = [

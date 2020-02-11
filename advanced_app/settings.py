@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['advanced-software-apps.appspot.com','127.0.0.1']
 
+SECURE_REDIRECT_EXEMPT = ['BackgroundDatabaseRefresh/*']
+
 
 # Application definition
 

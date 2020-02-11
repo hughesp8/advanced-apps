@@ -1,0 +1,4 @@
+cron:
+- description: "Re-populate database every minute with new transport info"
+  url: /BackgroundDatabaseRefresh/  # the path to your view
+  schedule: every 1 minutes  # the frequency for running the job
